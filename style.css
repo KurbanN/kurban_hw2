@@ -1,0 +1,288 @@
+
+body{ 
+	margin: 0;
+	padding: 0;
+	color: #e2e2e2;
+	font-size: 12px;
+	line-height: 1.6em; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #313030;
+	background-image:  url(images/body.jpg);
+	background-position: center top;
+	background-repeat: no-repeat
+}
+
+a, a:link, a:visited { color: #FFFFFF; font-weight: normal; text-decoration: none }
+
+ul, li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 30px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
+
+
+
+
+
+
+
+#templatemo_header {
+	width: 800px;
+	margin: 0 auto;
+	padding: 35px 20px 40px;
+	background: url(images/header-bg.png) no-repeat center
+}
+
+#templatemo_main_wrapper {
+	
+	width: 800px;
+	height: 480px;
+	margin: 0 auto;
+	padding: 9px;
+	background: url(images/content_bg.png) no-repeat
+}
+
+#templatemo_main {
+	width: 800px;
+	height: 480px;
+	overflow: hidden;
+}
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	background: url(images/footer.png) center top no-repeat
+}
+
+#templatemo_footer {
+	width: 780px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	color: #999999;
+	text-align: center;
+}
+
+#templatemo_footer a {
+	color: #999999;
+}
+
+#site_title { display: block; width: 300px; margin: 0 auto; text-align: center }
+#site_title a { font-size: 28px; color: #fff; font-weight: 700 }
+
+#content{
+	overflow:hidden;
+	width: 7000px;
+	position:relative;
+	height: 480px;
+	background: #3c3b3b;	
+}
+
+.section {
+	position:relative;
+	float:left;
+	width: 800px;
+	height: 480px;
+	margin-right: 20px;
+	background: #3c3b3b;
+}
+
+.section_with_padding {
+	padding:40px;
+	width: 720px;
+	height: 400px;
+}
+
+.section a.home_btn { 
+	position: absolute; 
+	top: 20px; 
+	right: -1px; 
+	width: 52px; 
+	height: 45px; 
+	display: block;
+	background: url(images/home_btn.png); 
+	text-indent: -10000px 
+}
+
+.section  a.page_nav_btn { position: absolute; display: block; width: 77px; height: 27px; line-height: 27px; font-weight: 700; bottom: 20px; text-align: center }
+
+.section  a.previous { left: 0; background: url(images/previous_btn.png)  left center no-repeat }
+
+.section  a.next { right: 0; background:  url(images/next_btn.png) right center no-repeat }
+
+.home_box { width: 400px; height: 480px; }
+
+.row1 { width: 400px; height: 120px }
+.row2 { width: 400px; height: 240px }
+
+.box1 { background: #9168b3 url(images/01.png) scroll 20px 30px no-repeat }
+.box1:hover { background-color: #7c549d }
+.box2 { background: rgb(105, 206, 127) url(images/02.png) scroll 20px 30px no-repeat }
+.box2:hover { background-color: rgb(70, 197, 123) }
+.box4 { background: rgb(131, 193, 221) url(images/03.png) scroll 20px 30px no-repeat }
+.box4:hover { background-color: rgb(84, 164, 218) }
+
+
+
+
+.home_box .box_with_padding { padding: 25px 15px 15px 140px }
+
+#content .home_box h2 { color: #fff; font-size: 28px; margin-bottom: 10px }
+
+
+#mini_contact_form .input_field { 
+	display: block; 
+	margin-left: 5px; 
+	float: left; 
+	width: 78px; 
+	padding: 2px; 
+	height: 18px;
+	font-size: 11px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999; 
+	border: 1px solid #525252; 
+	background: #292929; 
+	margin-bottom: 5px; 
+}
+
+#mini_contact_form textarea { 
+	clear: both; 
+	width: 160px; 
+	height: 50px;
+	padding: 2px; 
+	font-size: 11px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999; 
+	border: 1px solid #525252;
+	background: #292929; 
+	margin-bottom: 10px;
+}
+
+#mini_contact_form .submit_btn { 
+	display: block; 
+	float: right; 
+	font-size: 11px;
+	font-weight: bold;
+	background: #15171d; 
+	color: #999999;
+	cursor: pointer; 
+	border: 1px solid #30333c; 
+	padding: 4px 10px; 
+	margin-right: 8px;
+}
+
+#mini_contact_form .col_half { width: 1px }
+
+#soclinks {
+}
+
+#soclinks li {
+	width: auto;
+	height: auto;
+	padding: 0;
+	background: none;
+}
+#soclinks li a {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 48px;
+	line-height: 48px;
+	padding: 5px 0 5px 60px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	background-position: left;
+	background-repeat: no-repeat
+}
+
+#soclinks li a.facebook {
+	background-image: url(images/facebook.png) 
+}
+#soclinks li a.VK {
+	background-image: url(images/vk.png)
+}
+
+#soclinks li a.whatsapp {
+	background-image: url(images/whatsapp.png)
+}
+
+#soclinks li a.inst {
+	background-image: url(images/instagram.png)
+}
+
+
+#contact_form { padding: 0; width: 330px }
+
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input_field { 
+	width: 150px; 
+	padding: 4px; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999; 
+	border: 1px solid #525252; 
+	background: #292929; 
+	margin-bottom: 10px; 
+}
+
+
+
+contact_form form textarea { 
+	clear: both; 
+	width: 320px; 
+	height: 120px; 
+	padding: 4px; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999;
+	border: 1px solid #525252; 
+	background: #292929; 
+	margin-bottom: 10px;
+}
+
+.hit-the-floor {
+	color: #fff;
+	font-size: 5em;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 
+	  0 1px 0 #ccc, 
+	  0 2px 0 #c9c9c9, 
+	  0 3px 0 #bbb, 
+	  0 4px 0 #b9b9b9, 
+	  0 5px 0 #aaa, 
+	  0 6px 1px rgba(0,0,0,.1), 
+	  0 0 5px rgba(0,0,0,.1), 
+	  0 1px 3px rgba(0,0,0,.3), 
+	  0 3px 5px rgba(0,0,0,.2), 
+	  0 5px 10px rgba(0,0,0,.25), 
+	  0 10px 10px rgba(0,0,0,.2), 
+	  0 20px 20px rgba(0,0,0,.15);
+  }
+  
+  .hit-the-floor {
+	margin-left: 460px;
+	margin-top: 55px;
+  }
+  
+  body {
+	background-color: #f1f1f1;
+  }
+
+  .half { width: 330px }
+
+
+
+  img { margin: 0; padding: 0; border: none }
+.img_border { background: #525252; padding: 4px; border: 1px solid #282828 }
+.img_nom { display: block; margin-bottom: 0px }
+.img_fl { float: left; margin: 3px 10px 5px 0 }
+.img_fr { float: left; margin: 3px 0 5px 5px }
+
+.left { float: left }
+.right { float: right }
